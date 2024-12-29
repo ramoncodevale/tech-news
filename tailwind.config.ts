@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
 export default {
   content: [
@@ -9,10 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
+        customBackground: "#1E293B",
+        customText: "#60A5FA",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
   },
   plugins: [],
-} satisfies Config;
+} satisfies Config
