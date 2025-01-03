@@ -11,6 +11,7 @@ export default {
       colors: {
         customBackground: "#1E293B",
         customText: "#60A5FA",
+        customButton: "#1D4ED8",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
